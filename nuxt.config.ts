@@ -19,6 +19,7 @@ export default defineNuxtConfig({
     public: {
       equran: process.env.NUXT_BASE_API_URL_EQURAN || "",
       tafsir: process.env.NUXT_BASE_API_URL_TAFSIR || "",
+      openCageAPIKey: process.env.NUXT_BASE_API_KEY || "",
     },
   },
 });
